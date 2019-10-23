@@ -11,16 +11,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".SecondaryActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ThirdActivity" ></activity>
+        <activity android:name=".SecondaryActivity" ></activity>
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondaryActivity"
-            tools:ignore="DuplicateActivity"></activity>
+        <activity
+            android:name=".SecondaryActivity"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".ThirdActivity"
+            tools:ignore="DuplicateActivity" />
     </application>
 
 </manifest>
